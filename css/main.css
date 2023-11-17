@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    background-color: gray;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar .logo img{
+    width: 50%;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+}
+.list ul li {
+    padding: 10px;
+}
+.list ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.portfolio{
+    background-color: antiquewhite;
+    text-align: center;
+    
+}
+
+.row1{
+    display: flex;
+    
+}
+.row2{
+    display: flex;
+    
+}
+.portfolio-item img{
+    display: block;
+    width: 100%;
+}
+
+
+
